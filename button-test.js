@@ -1,8 +1,3 @@
-## Defining variables
-
-//var myVar = D1;
-//pinMode(myVar, 'input');
-
 ### Button 
 var button = D1;
 pinMode(button, 'input-pulldown');
