@@ -1,8 +1,10 @@
-### Button 
+// Button 
+
+// Variables
 var button = D1;
 pinMode(button, 'input-pulldown');
 
-#### Button is pressed test
+// Testing component, toggle on and off onboard LED (tested on Espruino Pico)
 var button = D2;
 pinMode(button,'input_pulldown');
 
@@ -16,6 +18,5 @@ setWatch(function(e) {
   function toggle() {
   on = !on;
   digitalWrite(LED3, on);
-  //analogWrite(BUZZER, 0.5, { freq: 1000 } );
   
 }
